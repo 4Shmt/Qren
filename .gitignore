@@ -125,3 +125,5 @@ Thumbs.db
 .DS_Store?
 ehthumbs.db
 Icon?
+# Bot tokens (DO NOT COMMIT)
+*_BOT_TOKEN.js
