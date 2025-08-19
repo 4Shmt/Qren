@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Bot data files
+*.log
+*.pid
+deployment_stats.json
+avatars_data.json
+control_panel_data.json
+search_cooldowns.json
+servers_data.json
+tags_data.json
+user_cooldowns.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime files
+*.tgz
+*.tar.gz
