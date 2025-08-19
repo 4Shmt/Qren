@@ -1,16 +1,39 @@
 {
-  "name": "workspace",
+  "name": "qren-discord-bots",
   "version": "1.0.0",
+  "description": "A robust Discord bot ecosystem with advanced self-healing and monitoring capabilities",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "javascript",
+    "nodejs",
+    "automation",
+    "monitoring"
+  ],
+  "author": "Qren Discord Bots Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/qren-discord-bots.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/qren-discord-bots/issues"
+  },
+  "homepage": "https://github.com/your-username/qren-discord-bots#readme",
   "dependencies": {
     "discord.js": "^14.21.0",
-    "express": "^5.1.0"
-  }
+    "express": "^5.1.0",
+    "concurrently": "^9.2.0"
+  },
+  "devDependencies": {}
 }
